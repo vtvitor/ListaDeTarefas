@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Gerenciador de Tarefas</title>
+</head>
+<body>
+    <div class="dashboard">
+        
+        <div class="painel-esquerdo">
+            <h1>Cadastrar tarefa</h1>
+            <input type="text" id="nome" placeholder="Escreva o nome da tarefa">
+            <br>
+            <input type="text" id="descricao" placeholder="Escreva a descrição da tarefa">
+            <br>
+            <button id="btnCriar">Criar Tarefa</button>
+            <br>
+
+            <h1>Concluir Tarefa</h1>
+            <input type="number" id="IDFinalizar" placeholder="Escreva o Código da tarefa">
+            <br>
+            <button id="btnFinalizar">Concluir Tarefa</button>
+            <br>
+
+            <h1>Remover tarefa</h1>
+            <input type="number" id="IDRemover" placeholder="Escreva o Código da tarefa">
+            <br>
+            <button id="btnRemover">Remover Tarefa</button>
+            <br>
+
+            <h1>Editar tarefa</h1>
+            <input type="number" id="IDBuscar" placeholder="Escreva o Código da tarefa">
+            <button id="btnBuscar">Buscar Tarefa</button>
+            <br>
+            <input type="text" id="IDEditar" placeholder="Escreva o nome da tarefa">
+            <button id="btnEditar">Editar Tarefa</button>
+            <br>
+        </div>
+
+        <div class="painel-direito">
+            <h2 class="titulo-resultados">Suas Tarefas</h2>
+            <p id="resultado">Nenhuma tarefa cadastrada ainda...</p>
+        </div>
+
+    </div>
+</body>
+</html>
